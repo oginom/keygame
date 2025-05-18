@@ -1,0 +1,22 @@
+[project]
+name = "keygame"
+version = "0.1.0"
+description = "Key pressing game dev with pyxel"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyxel>=2.3.18",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.10",
+]
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "W",
+  "I",
+]
